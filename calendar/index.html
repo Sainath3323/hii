@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="calendar-header">
+      <button id="prev-month">&#60;</button>
+      <h2 id="month-year"></h2>
+      <button id="next-month">&#62;</button>
+    </div>
+    <div id="calendar"></div>
+  </div>
+
+  <!-- Event Modal -->
+  <div id="event-modal" class="modal">
+    <div class="modal-content">
+      <h3>Edit Event</h3>
+      <textarea id="event-text" placeholder="Enter event details..."></textarea>
+      <button id="save-event">Save</button>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
